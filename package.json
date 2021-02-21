@@ -1,0 +1,37 @@
+{
+  "name": "vanilla-server-lib",
+  "version": "1.0.0",
+  "main": "lib/VanillaWebServer.js",
+  "directories": {
+    "example": "example",
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "type": "commonjs",
+  "types": "lib/VanillaWebServer.d.js",
+  "typings": "lib/VanillaWebServer.d.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "typedoc": "typedoc src",
+    "example": "node example/index.js",
+    "example:dev": "nodemon example/index.js"
+  },
+  "keywords": [],
+  "author": "MrDenySU",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "typedoc": "^0.20.27",
+    "typedoc-plugin-markdown": "^3.5.0"
+  },
+  "dependencies": {
+    "@types/formidable": "^1.0.32",
+    "@types/mime-types": "^2.1.0",
+    "@types/node": "^14.14.31",
+    "@types/path-to-regexp": "^1.7.0",
+    "formidable": "^1.2.2",
+    "mime-types": "^2.1.29",
+    "path-to-regexp": "^6.2.0"
+  }
+}

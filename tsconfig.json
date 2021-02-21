@@ -1,0 +1,21 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": [
+      "es6",
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "outDir": "./lib",
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
