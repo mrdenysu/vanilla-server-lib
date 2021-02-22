@@ -83,7 +83,7 @@ export class Write {
       this.#RESPONSE.writeHead(200, {
         "Content-Type": "text/html; charset=UTF-8",
       });
-      this.#RESPONSE.end(minify(html, this.#MinifyOptions));
+      this.#RESPONSE.end(minify(await html, this.#MinifyOptions));
     };
 
     if (this.#RenderEngine) {
