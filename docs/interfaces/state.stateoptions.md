@@ -20,7 +20,7 @@
 
 • **method**: *string*
 
-Defined in: State.ts:6
+Defined in: [State.ts:7](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L7)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **params**: *Dict*<[*string*]\>
 
-Defined in: State.ts:9
+Defined in: [State.ts:10](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L10)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **pathname**: *string*
 
-Defined in: State.ts:8
+Defined in: [State.ts:9](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L9)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **request**: [*VanillaWebServerRequest*](../modules/vanillawebserver.md#vanillawebserverrequest)
 
-Defined in: State.ts:10
+Defined in: [State.ts:11](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L11)
 
 ___
 
@@ -52,4 +52,4 @@ ___
 
 • **url**: *string*
 
-Defined in: State.ts:7
+Defined in: [State.ts:8](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L8)

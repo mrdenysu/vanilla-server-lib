@@ -9,6 +9,7 @@
 ### Properties
 
 - [logger](vanillawebserver.vanillawebserveroptions.md#logger)
+- [render](vanillawebserver.vanillawebserveroptions.md#render)
 
 ## Properties
 
@@ -16,4 +17,12 @@
 
 • `Optional` **logger**: Console
 
-Defined in: VanillaWebServer.ts:16
+Defined in: [VanillaWebServer.ts:16](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L16)
+
+___
+
+### render
+
+• `Optional` **render**: [*Render*](write.render.md)
+
+Defined in: [VanillaWebServer.ts:17](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L17)

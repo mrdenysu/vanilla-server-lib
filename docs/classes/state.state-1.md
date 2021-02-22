@@ -46,7 +46,7 @@ Name | Type |
 
 **Returns:** [*State*](state.state-1.md)
 
-Defined in: State.ts:34
+Defined in: [State.ts:35](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L35)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Defined in: State.ts:34
 
 • `Private` **#Body**: [*Body*](../interfaces/state.body.md)
 
-Defined in: State.ts:34
+Defined in: [State.ts:35](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L35)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • `Private` **#METHOD**: *string*
 
-Defined in: State.ts:29
+Defined in: [State.ts:30](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L30)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • `Private` **#PARAMS**: *Params*
 
-Defined in: State.ts:32
+Defined in: [State.ts:33](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L33)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 • `Private` **#PATH**: *string*
 
-Defined in: State.ts:31
+Defined in: [State.ts:32](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L32)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • `Private` **#Query**: *ParsedUrlQuery*
 
-Defined in: State.ts:33
+Defined in: [State.ts:34](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L34)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 • `Private` **#REQUEST**: [*VanillaWebServerRequest*](../modules/vanillawebserver.md#vanillawebserverrequest)
 
-Defined in: State.ts:28
+Defined in: [State.ts:29](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L29)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 • `Private` **#URL**: *string*
 
-Defined in: State.ts:30
+Defined in: [State.ts:31](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L31)
 
 ## Accessors
 
@@ -114,7 +114,7 @@ Request method
 
 **Returns:** *string*
 
-Defined in: State.ts:47
+Defined in: [State.ts:48](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L48)
 
 ___
 
@@ -126,7 +126,7 @@ Request params
 
 **Returns:** *Params*
 
-Defined in: State.ts:68
+Defined in: [State.ts:69](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L69)
 
 ___
 
@@ -138,7 +138,7 @@ Request pathname
 
 **Returns:** *string*
 
-Defined in: State.ts:61
+Defined in: [State.ts:62](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L62)
 
 ___
 
@@ -150,7 +150,7 @@ Request url
 
 **Returns:** *string*
 
-Defined in: State.ts:54
+Defined in: [State.ts:55](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L55)
 
 ## Methods
 
@@ -162,7 +162,7 @@ Parse body data
 
 **Returns:** *Promise*<[*Body*](../interfaces/state.body.md)\>
 
-Defined in: State.ts:83
+Defined in: [State.ts:84](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L84)
 
 ___
 
@@ -174,4 +174,4 @@ Parse query string
 
 **Returns:** *Promise*<ParsedUrlQuery\>
 
-Defined in: State.ts:75
+Defined in: [State.ts:76](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L76)

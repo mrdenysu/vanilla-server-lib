@@ -16,7 +16,7 @@ What the server can doWhat the server can do?
 * [X] Reading-parsing files from forms and the like.
 * [ ] Working with cookies, session
 * [ ] Compression of responses from the server
-* [ ] Minification and compression of responses from the server
-* [ ] Use a template engine
+* [X] Minification (JS, CSS, HTML, JSON) files
+* [X] Use a template engine
 
 vanilla-server-lib / [Exports](modules.md)

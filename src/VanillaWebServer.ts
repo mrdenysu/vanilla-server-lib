@@ -6,14 +6,15 @@ import { join } from "path";
 import { match } from "path-to-regexp";
 import { parse } from "url";
 import { State } from "./State";
-import { Write } from "./Write";
+import { Render, Write } from "./Write";
 
-export type VanillaWebServerRequest = IncomingMessage | Http2ServerRequest;
+export type VanillaWebServerRequest = IncomingMessage & Http2ServerRequest;
 
-export type VanillaWebServerResponse = ServerResponse | Http2ServerResponse;
+export type VanillaWebServerResponse = ServerResponse & Http2ServerResponse;
 
 export interface VanillaWebServerOptions {
   logger?: Console;
+  render?: Render;
 }
 
 export type Method = "GET" | "POST" | "PUT" | "DELETE";
@@ -26,20 +27,27 @@ export class VanillaWebServer {
   #POST: Map<string, RouterValue>;
   #PUT: Map<string, RouterValue>;
   #DELETE: Map<string, RouterValue>;
-  #ERROR_HANDLER_404: RouterValue;
-  #ERROR_HANDLER_500: RouterValue;
+  #ErrorHandler404: RouterValue;
+  #ErrorHandler500: RouterValue;
+  #Render: Render;
 
   constructor(options: VanillaWebServerOptions) {
     this.#Logger = options?.logger ?? console;
+    this.#Render = {
+      engine: options?.render?.engine,
+      options: options?.render?.options,
+      viewPath: options?.render?.viewPath,
+    };
+
     this.#GET = new Map();
     this.#POST = new Map();
     this.#PUT = new Map();
     this.#DELETE = new Map();
 
-    this.#ERROR_HANDLER_404 = async (s, w) => {
+    this.#ErrorHandler404 = async (s, w) => {
       w.error(404, "Not Found");
     };
-    this.#ERROR_HANDLER_500 = async (s, w) => {
+    this.#ErrorHandler500 = async (s, w) => {
       w.error(500, "Internal Server Error");
     };
 
@@ -109,17 +117,17 @@ export class VanillaWebServer {
       request: req,
     });
 
-    const write = new Write(res);
+    const write = new Write(res, this.#Render);
 
     try {
       if (typeof func === "function") {
         await func(state, write);
       } else {
-        this.#ERROR_HANDLER_404(state, write);
+        this.#ErrorHandler404(state, write);
       }
       return this.#Logger.log("Request", { method: req?.method, url: req?.url }, `${new Date().getTime() - timeStart} ms}`);
     } catch (error) {
-      this.#ERROR_HANDLER_500(state, write);
+      this.#ErrorHandler500(state, write);
       return this.#Logger.error(error);
     }
   }
@@ -182,7 +190,7 @@ export class VanillaWebServer {
    * Error 404 handler
    */
   public error404(func: RouterValue) {
-    this.#ERROR_HANDLER_404 = func;
+    this.#ErrorHandler404 = func;
     return this;
   }
 
@@ -190,7 +198,7 @@ export class VanillaWebServer {
    * Error 500 handler
    */
   public error500(func: RouterValue) {
-    this.#ERROR_HANDLER_500 = func;
+    this.#ErrorHandler500 = func;
     return this;
   }
 }

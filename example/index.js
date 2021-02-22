@@ -23,8 +23,9 @@ vws
       body: await s.parseBody(),
     });
   })
-  .share("/docs", join(__dirname, "../docs"));
+  .share("/docs", join(__dirname, "../docs"))
+  .share("/example", join(__dirname));
 
 createSecureServer(SSL, vws.listener).listen(PORT, HOST, () => {
-  console.log(`Server listen https://${HOST}:${PORT}/`);
+  console.log(`Server listen at: https://${HOST}:${PORT}/`);
 });

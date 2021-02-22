@@ -25,7 +25,7 @@
 
 Ƭ **Method**: *GET* \| *POST* \| *PUT* \| *DELETE*
 
-Defined in: VanillaWebServer.ts:19
+Defined in: [VanillaWebServer.ts:20](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L20)
 
 ___
 
@@ -46,20 +46,20 @@ Name | Type |
 
 **Returns:** *Promise*<any\>
 
-Defined in: VanillaWebServer.ts:21
+Defined in: [VanillaWebServer.ts:22](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L22)
 
 ___
 
 ### VanillaWebServerRequest
 
-Ƭ **VanillaWebServerRequest**: IncomingMessage \| Http2ServerRequest
+Ƭ **VanillaWebServerRequest**: IncomingMessage & Http2ServerRequest
 
-Defined in: VanillaWebServer.ts:11
+Defined in: [VanillaWebServer.ts:11](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L11)
 
 ___
 
 ### VanillaWebServerResponse
 
-Ƭ **VanillaWebServerResponse**: ServerResponse \| Http2ServerResponse
+Ƭ **VanillaWebServerResponse**: ServerResponse & Http2ServerResponse
 
-Defined in: VanillaWebServer.ts:13
+Defined in: [VanillaWebServer.ts:13](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L13)

@@ -17,7 +17,7 @@
 
 • **fields**: Fields
 
-Defined in: State.ts:21
+Defined in: [State.ts:22](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L22)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 • **files**: Files
 
-Defined in: State.ts:22
+Defined in: [State.ts:23](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/State.ts#L23)

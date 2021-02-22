@@ -1,4 +1,5 @@
 import { Fields, Files, IncomingForm } from "formidable";
+import { IncomingMessage } from "node:http";
 import { parse, ParsedUrlQuery } from "querystring";
 import { VanillaWebServerRequest } from "./VanillaWebServer";
 
@@ -85,8 +86,7 @@ export class State {
     const _body: Body = await new Promise((resolve, reject) => {
       // @ts-ignore
       const form = new IncomingForm({ multiples: true });
-      // @ts-ignore
-      form.parse(this.#REQUEST, (err, fields, files) => {
+      form.parse(<IncomingMessage>this.#REQUEST, (err, fields, files) => {
         if (err) return reject(err);
         return resolve({ fields, files });
       });
