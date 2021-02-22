@@ -41,7 +41,7 @@ Name | Type |
 
 **Returns:** [*Write*](write.write-1.md)
 
-Defined in: [Write.ts:20](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L20)
+Defined in: [Write.ts:20](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L20)
 
 ## Properties
 
@@ -49,7 +49,7 @@ Defined in: [Write.ts:20](https://github.com/mrdenysu/vanilla-server-lib/blob/60
 
 • `Private` **#MinifyOptions**: *object*
 
-Defined in: [Write.ts:20](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L20)
+Defined in: [Write.ts:20](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L20)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • `Private` **#RESPONSE**: [*VanillaWebServerResponse*](../modules/vanillawebserver.md#vanillawebserverresponse)
 
-Defined in: [Write.ts:16](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L16)
+Defined in: [Write.ts:16](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L16)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • `Private` **#RenderEngine**: *false* \| [*RenderEngine*](../modules/write.md#renderengine)
 
-Defined in: [Write.ts:17](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L17)
+Defined in: [Write.ts:17](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L17)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • `Private` **#RenderOptions**: *object*
 
-Defined in: [Write.ts:18](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L18)
+Defined in: [Write.ts:18](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L18)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 • `Private` **#RenderViewPath**: *string*
 
-Defined in: [Write.ts:19](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L19)
+Defined in: [Write.ts:19](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L19)
 
 ## Methods
 
@@ -101,7 +101,7 @@ Name | Type | Default value |
 
 **Returns:** *void*
 
-Defined in: [Write.ts:65](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L65)
+Defined in: [Write.ts:65](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L65)
 
 ___
 
@@ -119,7 +119,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Write.ts:99](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L99)
+Defined in: [Write.ts:99](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L99)
 
 ___
 
@@ -137,7 +137,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Write.ts:57](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L57)
+Defined in: [Write.ts:57](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L57)
 
 ___
 
@@ -156,7 +156,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Write.ts:79](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L79)
+Defined in: [Write.ts:79](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L79)
 
 ___
 
@@ -174,4 +174,4 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Write.ts:49](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L49)
+Defined in: [Write.ts:49](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L49)

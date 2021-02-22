@@ -12,9 +12,12 @@
   "typings": "lib/VanillaWebServer.d.js",
   "scripts": {
     "dev": "tsc -w",
+    "build": "tsc",
     "typedoc": "typedoc --plugin typedoc-plugin-markdown src",
-    "example": "node example/index.js",
-    "example:dev": "nodemon example/index.js"
+    "build:all": "run-p build typedoc",
+    "example:http": "node example/http.js",
+    "example:http2": "node example/http2.js",
+    "example:https": "node example/https.js"
   },
   "keywords": [],
   "author": "MrDenySU",
@@ -22,15 +25,17 @@
   "description": "",
   "devDependencies": {
     "@types/html-minifier": "^4.0.0",
+    "@types/mime-types": "^2.1.0",
+    "@types/node": "^14.14.31",
+    "ejs": "^3.1.6",
     "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
     "typedoc": "^0.20.27",
     "typedoc-plugin-markdown": "^3.5.0",
     "typescript": "^4.1.5"
   },
   "dependencies": {
     "@types/formidable": "^1.0.32",
-    "@types/mime-types": "^2.1.0",
-    "@types/node": "^14.14.31",
     "@types/path-to-regexp": "^1.7.0",
     "formidable": "^1.2.2",
     "html-minifier": "^4.0.0",

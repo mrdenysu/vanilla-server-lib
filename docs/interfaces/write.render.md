@@ -18,7 +18,7 @@
 
 • `Optional` **engine**: [*RenderEngine*](../modules/write.md#renderengine)
 
-Defined in: [Write.ts:10](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L10)
+Defined in: [Write.ts:10](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L10)
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • `Optional` **options**: *object*
 
-Defined in: [Write.ts:11](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L11)
+Defined in: [Write.ts:11](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L11)
 
 ___
 
@@ -34,4 +34,4 @@ ___
 
 • `Optional` **viewPath**: *string*
 
-Defined in: [Write.ts:12](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L12)
+Defined in: [Write.ts:12](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L12)

@@ -37,4 +37,4 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [Write.ts:7](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/Write.ts#L7)
+Defined in: [Write.ts:7](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/Write.ts#L7)

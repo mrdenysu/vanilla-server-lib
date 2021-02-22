@@ -49,7 +49,7 @@ Name | Type |
 
 **Returns:** [*VanillaWebServer*](vanillawebserver.vanillawebserver-1.md)
 
-Defined in: [VanillaWebServer.ts:32](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L32)
+Defined in: [VanillaWebServer.ts:32](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L32)
 
 ## Properties
 
@@ -57,7 +57,7 @@ Defined in: [VanillaWebServer.ts:32](https://github.com/mrdenysu/vanilla-server-
 
 • `Private` **#DELETE**: *Map*<string, [*RouterValue*](../modules/vanillawebserver.md#routervalue)\>
 
-Defined in: [VanillaWebServer.ts:29](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L29)
+Defined in: [VanillaWebServer.ts:29](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L29)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • `Private` **#ErrorHandler404**: [*RouterValue*](../modules/vanillawebserver.md#routervalue)
 
-Defined in: [VanillaWebServer.ts:30](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L30)
+Defined in: [VanillaWebServer.ts:30](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L30)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • `Private` **#ErrorHandler500**: [*RouterValue*](../modules/vanillawebserver.md#routervalue)
 
-Defined in: [VanillaWebServer.ts:31](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L31)
+Defined in: [VanillaWebServer.ts:31](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L31)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 • `Private` **#GET**: *Map*<string, [*RouterValue*](../modules/vanillawebserver.md#routervalue)\>
 
-Defined in: [VanillaWebServer.ts:26](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L26)
+Defined in: [VanillaWebServer.ts:26](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L26)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 • `Private` **#Logger**: Console
 
-Defined in: [VanillaWebServer.ts:25](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L25)
+Defined in: [VanillaWebServer.ts:25](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L25)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 • `Private` **#POST**: *Map*<string, [*RouterValue*](../modules/vanillawebserver.md#routervalue)\>
 
-Defined in: [VanillaWebServer.ts:27](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L27)
+Defined in: [VanillaWebServer.ts:27](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L27)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 • `Private` **#PUT**: *Map*<string, [*RouterValue*](../modules/vanillawebserver.md#routervalue)\>
 
-Defined in: [VanillaWebServer.ts:28](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L28)
+Defined in: [VanillaWebServer.ts:28](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L28)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 • `Private` **#Render**: [*Render*](../interfaces/write.render.md)
 
-Defined in: [VanillaWebServer.ts:32](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L32)
+Defined in: [VanillaWebServer.ts:32](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L32)
 
 ## Accessors
 
@@ -125,7 +125,7 @@ Get listener for any server kernel (http, https, http2)
 
 **Returns:** *function*
 
-Defined in: [VanillaWebServer.ts:138](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L138)
+Defined in: [VanillaWebServer.ts:138](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L138)
 
 ## Methods
 
@@ -143,7 +143,7 @@ Name | Type |
 
 **Returns:** [*VanillaWebServer*](vanillawebserver.vanillawebserver-1.md)
 
-Defined in: [VanillaWebServer.ts:192](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L192)
+Defined in: [VanillaWebServer.ts:192](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L192)
 
 ___
 
@@ -161,7 +161,7 @@ Name | Type |
 
 **Returns:** [*VanillaWebServer*](vanillawebserver.vanillawebserver-1.md)
 
-Defined in: [VanillaWebServer.ts:200](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L200)
+Defined in: [VanillaWebServer.ts:200](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L200)
 
 ___
 
@@ -183,7 +183,7 @@ Name | Type |
 `func` | *boolean* \| [*RouterValue*](../modules/vanillawebserver.md#routervalue) |
 `params` | *object* |
 
-Defined in: [VanillaWebServer.ts:57](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L57)
+Defined in: [VanillaWebServer.ts:57](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L57)
 
 ___
 
@@ -200,7 +200,7 @@ Name | Type |
 
 **Returns:** *Promise*<void\>
 
-Defined in: [VanillaWebServer.ts:77](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L77)
+Defined in: [VanillaWebServer.ts:77](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L77)
 
 ___
 
@@ -220,7 +220,7 @@ Name | Type |
 
 **Returns:** [*VanillaWebServer*](vanillawebserver.vanillawebserver-1.md)
 
-Defined in: [VanillaWebServer.ts:145](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L145)
+Defined in: [VanillaWebServer.ts:145](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L145)
 
 ___
 
@@ -239,7 +239,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [VanillaWebServer.ts:181](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L181)
+Defined in: [VanillaWebServer.ts:181](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L181)
 
 ___
 
@@ -258,4 +258,4 @@ Name | Type |
 
 **Returns:** [*VanillaWebServer*](vanillawebserver.vanillawebserver-1.md)
 
-Defined in: [VanillaWebServer.ts:169](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L169)
+Defined in: [VanillaWebServer.ts:169](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L169)

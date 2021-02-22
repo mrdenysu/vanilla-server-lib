@@ -17,7 +17,7 @@
 
 • `Optional` **logger**: Console
 
-Defined in: [VanillaWebServer.ts:16](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L16)
+Defined in: [VanillaWebServer.ts:16](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L16)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 • `Optional` **render**: [*Render*](write.render.md)
 
-Defined in: [VanillaWebServer.ts:17](https://github.com/mrdenysu/vanilla-server-lib/blob/609fa12/src/VanillaWebServer.ts#L17)
+Defined in: [VanillaWebServer.ts:17](https://github.com/mrdenysu/vanilla-server-lib/blob/e383c84/src/VanillaWebServer.ts#L17)
